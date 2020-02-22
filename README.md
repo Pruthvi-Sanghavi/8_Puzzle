@@ -23,6 +23,23 @@ python execute.py
 - ```execute.py``` contains the code necessary for execution. 
 - This is done to increase the speed of execution. More code division can be done into different python file but that might have increased the complexity.
 
+### Explanation of functions
+- ```Node class``` contains all the attributes used during the code.
+- ```function start_state``` asks for the entries from the user.
+- ```function search tile``` function that declares the position of the empty tile.
+- ```function left``` function that searches for the tile on left.
+- ```function right``` function that searches for the tile on right.
+- ```function up``` function that searches for the tile up.
+- ```function down``` function that searches for the tile down.
+- ```function move_tile``` function that moves the tile.
+- ```function print_states``` function that prints the states.
+- ```function node_path``` function that prints the path file
+- ```function node_searched``` function that prints the node file
+- ```function node_info``` function that prints the node info output file.
+- ```function path``` function that explores the tree.
+- ```function repetition_check``` Function that checks that no entry is repeated
+- ```function solvability_check``` Function that whether the given configuration is solvable or not.
+
 ### Demo
 ```
 pruthvi@pruthvi:~/Documents/ENPM 661/Project_1$ python execute.py 
