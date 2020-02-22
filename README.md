@@ -20,7 +20,8 @@ python execute.py
 ### Remarks
 - Here I have separated the code into two python files - ```execute.py``` and ```puzzle_solver.py```. 
 - ```puzzle_solver.py``` contains all the functions defined for the solution of the puzzle.
-- ```execute.py``` contains the code necessary for execution.
+- ```execute.py``` contains the code necessary for execution. 
+- This is done to increase the speed of execution. More code division can be done into different python file but that might have increased the complexity.
 
 ### Demo
 ```
