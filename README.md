@@ -17,6 +17,11 @@ git clone https://github.com/Pruthvi-Sanghavi/8_Puzzle.git
 cd 8_Puzzle
 python execute.py
 ```
+### Remarks
+- Here I have separated the code into two python files - ```execute.py``` and ```puzzle_solver.py```. 
+- ```puzzle_solver.py``` contains all the functions defined for the solution of the puzzle.
+- ```execute.py``` contains the code necessary for execution.
+
 ### Demo
 ```
 pruthvi@pruthvi:~/Documents/ENPM 661/Project_1$ python execute.py 
